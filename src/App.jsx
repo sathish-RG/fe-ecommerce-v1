@@ -26,7 +26,7 @@ const App = () => {
   }, [dispatch]);
   const router =createBrowserRouter([
     {
-      path:'/',
+      path:'/home',
       element:<Navbar/>,
       children:[
   {
@@ -42,7 +42,7 @@ const App = () => {
     element:<Register/>
   },
   {
-    path:'/Home',
+    path:'/home',
     element:<Home/>
   },
   {

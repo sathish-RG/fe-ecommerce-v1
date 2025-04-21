@@ -112,7 +112,7 @@ const Cart = () => {
         <div className="text-center py-12">
           <p className="text-lg text-gray-600 mb-4">Your cart is empty</p>
           <Link 
-            to="/" 
+            to="/home" 
             className="inline-block bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg transition-colors duration-200"
           >
             Continue Shopping
