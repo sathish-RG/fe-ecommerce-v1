@@ -26,7 +26,7 @@ const App = () => {
   }, [dispatch]);
   const router =createBrowserRouter([
     {
-      path:'/home',
+      path:'/',
       element:<Navbar/>,
       children:[
   {
